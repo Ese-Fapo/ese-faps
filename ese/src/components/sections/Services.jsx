@@ -48,16 +48,16 @@ const Service = () => {
             const IconComponent = Icons[service.icon] || Icons.Code
             return (
               <FadeIn key={service.id} delay={100 + index * 100}>
-                <div className='bg-gray-900/50 border border-gray-800 rounded-lg p-6 hover:border-primary/50 transition-all duration-300 hover:-translate-y-1'>
+                <div className='bg-gray-900/80 sm:bg-gray-900/50 border border-gray-700 sm:border-gray-800 rounded-lg p-6 hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 ring-1 ring-white/10 sm:ring-0'>
                   <div className='mb-4'>
-                    <div className='w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center'>
-                      <IconComponent className='w-6 h-6 text-primary'/>
+                    <div className='w-12 h-12 bg-primary/20 sm:bg-primary/10 rounded-lg flex items-center justify-center border border-primary/40 sm:border-primary/20'>
+                      <IconComponent className='w-6 h-6 text-primary font-bold'/>
                     </div>
                   </div>
-                  <h3 className='text-xl font-semibold text-white mb-3'>
+                  <h3 className='text-xl font-bold sm:font-semibold text-white mb-3 tracking-tight'>
                     {service.title}
                   </h3>
-                  <p className='text-gray-400'>
+                  <p className='text-gray-300 sm:text-gray-400 font-medium sm:font-normal text-sm sm:text-base'>
                     {service.description}
                   </p>
                 </div>

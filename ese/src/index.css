@@ -257,6 +257,18 @@
     /* Optimize font sizes for readability on small screens */
     body {
       font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+      letter-spacing: 0.3px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: #ffffff;
+    }
+
+    p, span, div {
+      font-weight: 500;
     }
     
     /* Prevent horizontal scroll on mobile */
@@ -274,6 +286,55 @@
     section {
       scroll-margin-top: 80px;
     }
+
+    /* Enhance card clarity on mobile */
+    [class*="card"], 
+    [class*="Card"],
+    [class*="border"] {
+      border-opacity: 0.4 !important;
+    }
+
+    /* Make backgrounds more opaque on mobile */
+    [class*="bg-"] {
+      opacity: 1 !important;
+    }
+
+    /* Enhanced text rendering */
+    p {
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Sharper button styling */
+    button {
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Improve shadow depth on mobile */
+    [class*="shadow"] {
+      filter: brightness(1.1);
+    }
+  }
+
+  /* Tablet specific enhancement (larger than mobile, smaller than desktop) */
+  @media (max-width: 1024px) and (min-width: 769px) {
+    body {
+      letter-spacing: 0.2px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 600;
+      letter-spacing: 0.4px;
+    }
+
+    /* Better card definitions on tablets */
+    [class*="card"],
+    [class*="Card"] {
+      border-width: 1.5px;
+    }
   }
 
   /* Extra small devices */
@@ -281,5 +342,21 @@
     /* Smaller scrollbar on mobile */
     ::-webkit-scrollbar {
       width: 4px;
+    }
+
+    /* Ultra-sharp text on very small screens */
+    body {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    h1, h2, h3 {
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+
+    /* Bolder text for better readability */
+    p {
+      font-weight: 500;
     }
   }

@@ -65,16 +65,16 @@ const About = () => {
                   const IconComponent = iconMap[index] || Code2;
                   
                   return (
-                    <div key={index} className='relative p-4 md:p-5 border border-lime-500/10 rounded-xl hover:border-lime-500/30 transition-all duration-300 hover:bg-lime-500/5 group bg-white/2'>
+                    <div key={index} className='relative p-4 md:p-5 border border-lime-500/20 sm:border-lime-500/10 rounded-xl hover:border-lime-500/30 transition-all duration-300 hover:bg-lime-500/5 group bg-lime-500/3 sm:bg-white/2 ring-1 ring-white/10 sm:ring-0'>
                       <div className='flex items-start gap-3 mb-3'>
-                        <div className='shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-lg bg-lime-400/10 border border-lime-400/20 flex items-center justify-center group-hover:bg-lime-400/20 group-hover:scale-110 transition-all duration-300'>
+                        <div className='shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-lg bg-lime-400/20 sm:bg-lime-400/10 border border-lime-400/30 sm:border-lime-400/20 flex items-center justify-center group-hover:bg-lime-400/30 sm:group-hover:bg-lime-400/20 group-hover:scale-110 transition-all duration-300'>
                           <IconComponent className='w-5 h-5 md:w-6 md:h-6 text-lime-400' />
                         </div>
                         <div className='flex-1 min-w-0'>
-                          <h3 className='text-base sm:text-lg md:text-xl font-semibold text-white mb-1.5 leading-tight'>
+                          <h3 className='text-base sm:text-lg md:text-xl font-bold sm:font-semibold text-white mb-1.5 leading-tight tracking-tight sm:tracking-normal'>
                             {stat.value}
                           </h3>
-                          <p className='text-xs sm:text-sm text-gray-400 leading-relaxed'>
+                          <p className='text-xs sm:text-sm text-gray-300 sm:text-gray-400 leading-relaxed font-medium sm:font-normal'>
                             {stat.label}
                           </p>
                         </div>

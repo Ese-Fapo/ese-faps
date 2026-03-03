@@ -61,14 +61,14 @@ const Technolgy = () => {
 
         {/* Skills Categories Grid */}
         <FadeIn delay={500}>
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
                 {Technology.map((skill, index) => {
                   const IconComponent = iconMap[skill.icon] || Code2;
                   return (
                     <div key={index} 
-                      className="group relative flex flex-col items-center p-4 border border-lime-500/10 rounded-xl hover:border-lime-500/30 transition-all duration-300 hover:bg-lime-500/5 cursor-pointer">
-                      <IconComponent className='text-3xl text-lime-400 group-hover:text-lime-300 group-hover:scale-110 transition-all duration-300'/>
-                      <div className='text-sm md:text-base text-gray-300 mt-2 font-medium text-center'>
+                      className="group relative flex flex-col items-center p-4 border border-lime-500/20 sm:border-lime-500/10 rounded-xl hover:border-lime-500/30 transition-all duration-300 hover:bg-lime-500/5 cursor-pointer ring-1 ring-white/20 sm:ring-0 bg-lime-400/15 sm:bg-transparent">
+                      <IconComponent className='text-3xl sm:text-4xl text-lime-400 group-hover:text-lime-300 group-hover:scale-110 transition-all duration-300'/>
+                      <div className='text-xs sm:text-sm md:text-base text-gray-200 sm:text-gray-300 mt-2 font-bold sm:font-medium text-center tracking-tight sm:tracking-normal'>
                           {skill.name}
                       </div>
 

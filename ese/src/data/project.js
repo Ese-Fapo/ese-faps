@@ -1,4 +1,6 @@
 import techPix from '../assets/tech_pix.jpeg'
+import berber from '../assets/berber.jpeg'
+import phone from '../assets/phone.jpeg'
 
 export const projects = [ 
   {
@@ -26,25 +28,25 @@ export const projects = [
 
   {
     id: 3,
-    title: 'Projeto Três',
+    title: 'e-commerce',
     description: 'aplicativo móvel para gerenciamento de tarefas',
-    imageUrl: '/images/project1.svg',
+    imageUrl: phone,
     category: 'Aplicativos Móveis',
-    technologies: ['React Native', 'Redux'],
-    projectUrl: 'https://example.com/project-three',
+    technologies: ['React + Vite', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
+    projectUrl: 'https://dotman-s-store-3eax.vercel.app/',
   
-    githubUrl: 'https://github.com/example/project-three',
+    githubUrl: 'https://github.com/Ese-Fapo/Dotman-s-Store.git ',
   },
   {
     id: 4,
-    title: 'Projeto Quatro',
-    description: 'blog pessoal com CMS',
-    imageUrl: '/images/sch-img.jpeg',
-    category: 'Desenvolvimento Web',
-    technologies: ['Gatsby', 'GraphQL', 'Contentful'],
-    projectUrl: 'https://example.com/project-four',
+    title: 'Berber&Blade',
+    description: 'um loja de barbearia online com sistema de agendamento',
+    imageUrl: berber,
+    category: 'Aplicativos Web',
+    technologies: ['HTML', 'CSS', 'javaScript'],
+    projectUrl: 'https://berber-shop-ruby.vercel.app/',
     
-    githubUrl: 'https://github.com/example/project-four',
+    githubUrl: 'https://github.com/Ese-Fapo/berber_shop.git',
   },
   {
     id: 5,

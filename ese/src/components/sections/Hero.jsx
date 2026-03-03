@@ -34,7 +34,7 @@ const Hero = () => {
             </FadeIn>
 
             <FadeIn delay={100}>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal text-white leading-tight mb-4 md:mb-6">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold sm:font-bold text-white leading-tight mb-4 md:mb-6 tracking-tight">
                 Desenvolvedor Front-end <br className="hidden sm:block" /> & Design<br/>UI
               </h1>
             </FadeIn>

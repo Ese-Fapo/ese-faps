@@ -24,7 +24,7 @@ const Skills = () => {
     ].filter(Boolean),
     "Ferramentas & Plataformas": [
       Technology.find((s) => s.name === "Git & GitHub"),
-      Technology.find((s) => s.name === "Figma"),
+      Technology.find((s) => s.name === "CI CD & DevOps"),
       Technology.find((s) => s.name === "Vite"),
       Technology.find((s) => s.name === "Responsive Design"),
     ].filter(Boolean),
@@ -75,11 +75,11 @@ const Skills = () => {
           {Object.entries(skillCategories).map(
             ([category, categorySkills], categoryIndex) => (
               <FadeIn key={categoryIndex} delay={300 + categoryIndex * 100}>
-                <div className="bg-linear-to-br from-white/5 to-white/2 border border-lime-500/10 rounded-2xl p-6 md:p-8 hover:border-lime-500/30 transition-all duration-300">
+                <div className="bg-lime-400/10 sm:bg-linear-to-br sm:from-white/5 sm:to-white/2 border border-lime-500/20 sm:border-lime-500/10 rounded-2xl p-6 md:p-8 hover:border-lime-500/30 transition-all duration-300 ring-1 ring-white/20 sm:ring-0">
                   {/* Category Title */}
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-1 h-8 bg-linear-to-b from-lime-400 to-cyan-400 rounded-full"></div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white">
+                    <h3 className="text-xl md:text-2xl font-bold sm:font-semibold text-white tracking-tight sm:tracking-normal">
                       {category}
                     </h3>
                   </div>
@@ -96,16 +96,16 @@ const Skills = () => {
                             <div className="flex items-center gap-2">
                               <IconComponent className="w-4 h-4 md:w-5 md:h-5 text-lime-400 group-hover:scale-110 transition-transform" />
                               <div className="flex flex-col">
-                                <span className="text-sm md:text-base text-gray-300 font-medium group-hover:text-lime-400 transition-colors">
+                                <span className="text-sm md:text-base text-gray-200 sm:text-gray-300 font-bold sm:font-medium group-hover:text-lime-400 transition-colors tracking-tight sm:tracking-normal">
                                   {skill.name}
                                 </span>
-                                <span className="text-xs text-gray-500">
+                                <span className="text-xs text-gray-400 sm:text-gray-500 font-medium sm:font-normal">
                                   {proficiency}%
                                 </span>
                               </div>
                             </div>
                             <span
-                              className={`px-2 py-1 rounded-full text-[10px] font-medium border ${getLevelColor(
+                              className={`px-2 py-1 rounded-full text-[10px] font-bold sm:font-medium border ${getLevelColor(
                                 skill.level
                               )}`}
                             >
@@ -114,7 +114,7 @@ const Skills = () => {
                           </div>
 
                           {/* Progress Bar */}
-                          <div className="h-1.5 bg-gray-800/50 rounded-full overflow-hidden">
+                          <div className="h-1.5 bg-gray-700 sm:bg-gray-800/50 rounded-full overflow-hidden">
                             <div
                               className="h-full bg-linear-to-r from--200 to-lime-400 transition-all duration-1000 ease-out rounded-full"
                               style={{ width: `${proficiency}%` }}

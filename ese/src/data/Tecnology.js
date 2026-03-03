@@ -78,8 +78,8 @@ export const     Technology = [
     },
     {
         id: 12,
-        name : 'Figma',
-        icon : 'figma',
+        name : 'CI CD & DevOps',
+        icon : 'devops',
         level: 'Intermediário',
         experience: '1 ano'
     },
