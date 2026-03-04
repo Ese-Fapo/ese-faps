@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
     name: 'Ese Fapohunda',
     title: 'Desenvolvedor React & Entusiasta UI/UX || Aberto a Oportunidades',
     email : 'esefapohunda@gmail.com',
-    phone : '+55 (48) 9181-7031',
+    phone : '+55 48 98127673',
     location : 'Florianópolis, Brasil',
     tagline : 'Criando experiências web perfeitas com React.js',
     resume: '/files/Ese_Fapohunda_Resume.pdf',
@@ -18,7 +18,7 @@ export const SOCIAL_LINKS = {
     instagram: 'https://www.instagram.com/easy_ese_1/',
 };
 export const STATS = [
-    { label: 'Anos de Experiência', value: '4+' },
+    { label: 'Anos de Experiência', value: '1+' },
     { label: 'Projetos Concluídos', value: '120+' },
     { label: 'Clientes Satisfeitos', value: '50+' },
     { label: 'Tecnologias Usadas', value: '15+' },

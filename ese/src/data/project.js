@@ -1,6 +1,7 @@
 import techPix from '../assets/tech_pix.jpeg'
 import berber from '../assets/berber.jpeg'
 import phone from '../assets/phone.jpeg'
+import resturant from '../assets/resturant.jpeg'
 
 export const projects = [ 
   {
@@ -28,10 +29,10 @@ export const projects = [
 
   {
     id: 3,
-    title: 'e-commerce',
+    title: 'Dotman Store',
     description: 'aplicativo móvel para gerenciamento de tarefas',
     imageUrl: phone,
-    category: 'Aplicativos Móveis',
+    category: 'E-commerce',
     technologies: ['React + Vite', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
     projectUrl: 'https://dotman-s-store-3eax.vercel.app/',
   
@@ -50,26 +51,16 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Projeto Cinco',
-    description: 'aplicação de bate-papo em tempo real',
-    imageUrl: '/images/project1.svg',
+    title: 'Resturant Template',
+    description: 'Ainda estou trabalhando no backend deste projeto. Estou implementando e publicando por partes, de forma gradual.',
+    imageUrl: resturant,
     category: 'Full-Stack',
-    technologies: ['Socket.io', 'Node.js', 'Express'],
-    projectUrl: 'https://example.com/project-five',
+    technologies: ['Next.js', 'React', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
+    projectUrl: 'https://resturant-templete.vercel.app/',
    
-    githubUrl: 'https://github.com/example/project-five',
+    githubUrl: 'https://github.com/Ese-Fapo/resturant-templete.git',
   },
-  {
-    id: 6,
-    title: 'Projeto Seis',
-    description: 'site de portfólio com animações',
-    imageUrl: '/images/sch-img.jpeg',
-    category: 'Componentes UI',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    projectUrl: 'https://example.com/project-six',
-   
-    githubUrl: 'https://github.com/example/project-six',
-  }
+  
 
 ];
 export const categories = [

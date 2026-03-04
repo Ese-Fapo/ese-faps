@@ -12,6 +12,7 @@ import { PERSONAL_INFO, STATS } from "../../utils/constants";
 import { scrollToSection } from "../../utils/scrollToSection";
 import FadeIn from "../animation/FadeIn";
 import RadialGradientBackground from "../background/RadiaGradientBackground";
+import profilePhoto from "../../assets/ese.jpeg";
 
 const Hero = () => {
   return (
@@ -49,7 +50,7 @@ const Hero = () => {
 
             <FadeIn delay={300}>
               <button
-                onClick={() => scrollToSection("contacts")}
+                onClick={() => scrollToSection("contact")}
                 className="inline-flex items-center justify-center gap-2 mb-6 md:mb-12 group px-6 py-3 text-sm md:text-base bg-lime-400 text-black font-semibold rounded-lg hover:bg-yellow-300 transition-colors w-full sm:w-auto"
               >
                 Entre em Contato
@@ -85,7 +86,7 @@ const Hero = () => {
                 {/**image container */}
                 <div className="relative rounded-2xl overflow-hidden m-0.5 h-[calc(100%-2px)]">
                   <img
-                    src="/images/hero.jpeg"
+                    src={profilePhoto}
                     alt="Ese Fapohunda - React Developer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
