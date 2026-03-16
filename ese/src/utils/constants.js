@@ -8,7 +8,7 @@ export const PERSONAL_INFO = {
     location : 'Florianópolis, Brasil',
     tagline : 'Criando experiências web perfeitas com React.js',
     resume: '/files/Ese_Fapohunda_Resume.pdf',
-    bio: [`Desenvolvedor React apaixonado com 1+ anos de experiência na criação de aplicações web dinâmicas e responsivas. Hábil em traduzir mockups de design em código de alta qualidade, otimizar desempenho e garantir compatibilidade entre navegadores. Comprometido com aprendizado contínuo e atualização com as últimas tendências da indústria para entregar soluções de ponta.`],
+    bio: [`Desenvolvedor React apaixonado com 2 anos de experiência na criação de aplicações web dinâmicas e responsivas. Hábil em traduzir mockups de design em código de alta qualidade, otimizar desempenho e garantir compatibilidade entre navegadores. Comprometido com aprendizado contínuo e atualização com as últimas tendências da indústria para entregar soluções de ponta.`],
 };
 
 export const SOCIAL_LINKS = {
@@ -18,7 +18,7 @@ export const SOCIAL_LINKS = {
     instagram: 'https://www.instagram.com/easy_ese_1/',
 };
 export const STATS = [
-    { label: 'Anos de Experiência', value: '1+' },
+    { label: 'Anos de Experiência', value: '2+' },
     { label: 'Projetos Concluídos', value: '120+' },
     { label: 'Clientes Satisfeitos', value: '50+' },
     { label: 'Tecnologias Usadas', value: '15+' },

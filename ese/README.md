@@ -1,16 +1,85 @@
-# React + Vite
+# Ese Portfolio (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio web app built with React, Vite, Tailwind CSS, and i18n (English/Portuguese support).
 
-Currently, two official plugins are available:
+## How to run the project locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1) Prerequisites
 
-## React Compiler
+- Node.js 18+ (recommended)
+- npm
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2) Install dependencies
 
-## Expanding the ESLint configuration
+From the project root (`ese/`):
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm install`
+
+### 3) Start development server
+
+- `npm run dev`
+
+Then open the local URL shown in terminal (usually `http://localhost:5173`).
+
+### 4) Build and preview production version (optional)
+
+- `npm run build`
+- `npm run preview`
+
+Preview typically runs at `http://localhost:4173`.
+
+## How to deploy / access online version
+
+### Access online version
+
+- If already deployed, open your Vercel domain (for example: `https://your-project-name.vercel.app`).
+
+### Deploy on Vercel
+
+1. Push your latest code to GitHub.
+2. Import the repository in Vercel.
+3. In project settings, use:
+	- **Root Directory:** `ese`
+	- **Framework Preset:** `Vite`
+	- **Build Command:** `npm run build`
+	- **Output Directory:** `dist`
+	- **Install Command:** `npm install`
+4. Deploy.
+
+For extra deployment notes/troubleshooting, see `VERCEL_DEPLOYMENT.md`.
+
+## Brief description of the projects presented
+
+The portfolio showcases the following projects:
+
+1. **Plataforma de Educação**
+	- Student exchange platform.
+	- Live: `https://www.rockstarstudyabroad.com/`
+
+2. **Tech-blog**
+	- Tech blog platform with authentication.
+	- Live: `https://tech-blog-i77h.vercel.app/`
+
+3. **Dotman Store**
+	- E-commerce/task-focused web app experience.
+	- Live: `https://dotman-s-store-3eax.vercel.app/`
+
+4. **Berber&Blade**
+	- Online barbershop store with booking system.
+	- Live: `https://berber-shop-ruby.vercel.app/`
+
+5. **Resturant Template**
+	- Restaurant template project (backend still being developed in phases).
+	- Live: `https://resturant-templete.vercel.app/`
+
+6. **Budget Tracker**
+	- Expense and budget tracking app.
+	- Live: `https://budget-eight-bay.vercel.app/`
+
+## Scripts
+
+- `npm run dev` – start development server
+- `npm run build` – create production build
+- `npm run preview` – preview production build locally
+- `npm run lint` – run lint checks
+- `npm run format` – format files with Prettier
