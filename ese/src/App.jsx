@@ -1,20 +1,21 @@
-import React, { useState } from 'react'
+import React, { lazy } from 'react'
 import './App.css'
 import Navbar from './components/layouts/Navbar'
-import Footer from './components/layouts/Footer'
 import ReturnToMain from './components/layouts/ReturnToMain'
 import FloatingWhatsApp from './components/layouts/FloatingWhatsApp'
 import Hero from './components/sections/Hero'
-import About from './components/sections/About'
-import Technolgy from './components/sections/Technolgy'
-import Skills from './components/sections/Skills'
-import Project from './components/sections/Project'
-import Service from './components/sections/Services'
-import Contact from './components/sections/Contact'
+import DeferredSection from './components/layouts/DeferredSection'
+
+const About = lazy(() => import('./components/sections/About'))
+const Technolgy = lazy(() => import('./components/sections/Technolgy'))
+const Skills = lazy(() => import('./components/sections/Skills'))
+const Project = lazy(() => import('./components/sections/Project'))
+const Service = lazy(() => import('./components/sections/Services'))
+const Contact = lazy(() => import('./components/sections/Contact'))
+const Footer = lazy(() => import('./components/layouts/Footer'))
 
 
 function App() {
- 
   return (
       <>
       <div className='min-h-screen bg-black'>
@@ -23,14 +24,14 @@ function App() {
         <Navbar />
         <main>
           <Hero />
-          <About/>
-          <Technolgy/>
-          <Skills/>
-          <Project/>
-          <Service/>
-          <Contact/>
+          <DeferredSection component={About} minHeight='85vh' rootMargin='500px 0px' />
+          <DeferredSection component={Technolgy} minHeight='95vh' />
+          <DeferredSection component={Skills} minHeight='95vh' />
+          <DeferredSection component={Project} minHeight='90vh' />
+          <DeferredSection component={Service} minHeight='80vh' />
+          <DeferredSection component={Contact} minHeight='85vh' />
         </main>
-        <Footer />
+        <DeferredSection component={Footer} minHeight='16rem' rootMargin='250px 0px' />
       </div>
       </>
   )

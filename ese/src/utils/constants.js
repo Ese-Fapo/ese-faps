@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
 };
 
 export const SOCIAL_LINKS = {
-    github: 'https://github.com/arumemi',
+    github: 'https://github.com/Ese-Fapo',
     linkedin: 'https://www.linkedin.com/in/ese-fapohunda-118594360/',
     facebook: 'https://www.facebook.com/essi.faps.2025',
     instagram: 'https://www.instagram.com/easy_ese_1/',

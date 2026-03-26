@@ -105,6 +105,11 @@ const Hero = () => {
                   <img
                     src={profilePhoto}
                     alt="Ese Fapohunda - React Developer"
+                    width="2400"
+                    height="3300"
+                    fetchPriority="high"
+                    loading="eager"
+                    decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>

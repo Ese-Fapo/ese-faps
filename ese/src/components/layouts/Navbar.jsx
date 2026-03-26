@@ -82,6 +82,9 @@ const Navbar = () => {
             <img
               src="/images/logo.png"
               alt="Logo"
+              width="1024"
+              height="1024"
+              decoding="async"
               className="w-10 h-10 rounded-lg"
             />
             <button

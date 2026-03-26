@@ -1,11 +1,22 @@
 import React from 'react'
 
 const FadeIn = ({children, delay = 0, duration = 500, threshold = 0.1}) => {
-    const [isVisible, setIsVisible] = React.useState(false);
+  const prefersReducedMotion = React.useMemo(
+    () => typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+    []
+  );
+  const [isVisible, setIsVisible] = React.useState(prefersReducedMotion);
     const elementRef = React.useRef(null);
 
     React.useEffect(() => {
+    if (prefersReducedMotion) {
+      return undefined;
+    }
+
         const currentElement = elementRef.current;
+    if (!currentElement) {
+      return undefined;
+    }
         
         const observer = new IntersectionObserver(
             (entries) => {
@@ -13,22 +24,19 @@ const FadeIn = ({children, delay = 0, duration = 500, threshold = 0.1}) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting && !isVisible) {
                         setIsVisible(true);
+            observer.disconnect();
                     }
                 })
             },
             { threshold: threshold, rootMargin: '0px 0px -50px 0px' } //triggers slightly before
         );
 
-        if (currentElement) {
-            observer.observe(currentElement);
-        }
+    observer.observe(currentElement);
 
         return () => {
-            if (currentElement) {
-                observer.unobserve(currentElement);
-            }
+      observer.disconnect();
         };
-    }, [threshold, isVisible]);
+  }, [threshold, isVisible, prefersReducedMotion]);
 
   return (
     <div 

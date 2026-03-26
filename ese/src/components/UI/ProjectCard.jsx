@@ -32,7 +32,13 @@ const ProjectCard = ({ project }) => {
     >
       {project.imageUrl && (
         <div className='w-full h-44 md:h-48 lg:h-56 mb-4 bg-gray-800 rounded-md overflow-hidden ring-1 ring-white/20'>
-          <img src={project.imageUrl} alt={project.title} className='w-full h-full object-cover' />
+          <img
+            src={project.imageUrl}
+            alt={project.title}
+            loading='lazy'
+            decoding='async'
+            className='w-full h-full object-cover'
+          />
         </div>
       )}
       <h3 className='text-lime-200 text-lg font-bold mb-1 tracking-tight'>{project.title}</h3>
