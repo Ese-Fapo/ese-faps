@@ -18,10 +18,10 @@ const Hero = () => {
   const { t } = useTranslation();
 
   const translatedStats = [
-    { label: t("hero.stats.experience"), value: "2" },
-    { label: t("hero.stats.projects"), value: "20+" },
-    { label: t("hero.stats.clients"), value: "15+" },
-    { label: t("hero.stats.technologies"), value: "15+" },
+    { label: t("hero.stats.experience"), value: "6" },
+    { label: t("hero.stats.projects"), value: "220+" },
+    { label: t("hero.stats.clients"), value: "50+" },
+    { label: t("hero.stats.technologies"), value: "25+" },
   ];
 
   return (

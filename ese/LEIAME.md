@@ -6,7 +6,7 @@
 
 ## Quem sou eu
 
-Sou **Ese Fapohunda**, desenvolvedor Front-End apaixonado por construir interfaces modernas, responsivas e acessíveis. Com **2+ anos de experiência**, tenho me dedicado a transformar ideias em aplicações reais — do layout ao deploy — sempre com foco em código limpo, desempenho e experiência do usuário.
+Sou **Ese Fapohunda**, desenvolvedor Front-End apaixonado por construir interfaces modernas, responsivas e acessíveis. Com **6+ anos de experiência**, tenho me dedicado a transformar ideias em aplicações reais — do layout ao deploy — sempre com foco em código limpo, desempenho e experiência do usuário.
 
 📧 esefapohunda@gmail.com  
 📞 +55 48 991817031  
@@ -80,8 +80,8 @@ Rastreador de despesas e orçamento pessoal com HTML, CSS e JavaScript.
 
 | | |
 |---|---|
-| 🗓️ Anos de Experiência | **2+** |
-| ✅ Projetos Concluídos | **120+** |
+| 🗓️ Anos de Experiência | **6+** |
+| ✅ Projetos Concluídos | **220+** |
 | 😊 Clientes Satisfeitos | **50+** |
 | 🔧 Tecnologias Utilizadas | **15+** |
 
