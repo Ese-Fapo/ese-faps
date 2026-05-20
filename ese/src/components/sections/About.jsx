@@ -1,5 +1,5 @@
 import React from 'react'
-import {Download, Code2, Sparkles, Target, Eye, TrendingUp, Users, Clock, FileCode} from 'lucide-react'
+import { Code2, Sparkles, Target, Eye, TrendingUp, Users, Clock, FileCode} from 'lucide-react'
 import {PERSONAL_INFO} from '../../utils/constants'
 import { useTranslation } from 'react-i18next'
 
@@ -49,15 +49,7 @@ const About = () => {
                 </div>
               </FadeIn>
 
-              <FadeIn delay={400}>
-                <button 
-                  onClick={() => window.open(PERSONAL_INFO.resume)}
-                  className='inline-flex items-center justify-center gap-3 bg-lime-400 hover:bg-lime-300 text-black rounded-lg px-6 py-3 md:px-8 md:py-4 text-sm md:text-base font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-lime-400/20 w-full sm:w-fit group'
-                >
-                  <Download className='w-4 h-4 md:w-5 md:h-5 group-hover:animate-bounce' />
-                  <span>{t('about.downloadResume')}</span>
-                </button>
-              </FadeIn>
+             
             </div>
 
             {/**right column - stats */}

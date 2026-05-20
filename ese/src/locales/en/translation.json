@@ -44,7 +44,7 @@
     "badge": "Full-Stack Developer",
     "title": "Crafting Amazing Digital Experiences",
     "bio": "Passionate React developer with 6 years of experience building dynamic and responsive web applications. Skilled in transforming design mockups into high-quality code, optimizing performance, and ensuring cross-browser compatibility. Committed to continuous learning and staying up to date with the latest industry trends to deliver cutting-edge solutions.",
-    "downloadResume": "Download Resume",
+   
     "stats": {
       "frontEnd": { "value": "Front-End Specialist", "label": "Focused on modern React development & UI" },
       "detail": { "value": "Detail-Oriented", "label": "Pixel-perfect layouts & smooth interactions" },
