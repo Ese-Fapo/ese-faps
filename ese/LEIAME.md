@@ -1,4 +1,4 @@
-# Ese Fapohunda — Desenvolvedor Front-End
+# Ese Fapohunda — Engenheiro de Software
 
 > **🇧🇷 Florianópolis, Brasil** · Disponível para novas oportunidades
 
@@ -6,7 +6,7 @@
 
 ## Quem sou eu
 
-Sou **Ese Fapohunda**, desenvolvedor Front-End apaixonado por construir interfaces modernas, responsivas e acessíveis. Com **6+ anos de experiência**, tenho me dedicado a transformar ideias em aplicações reais — do layout ao deploy — sempre com foco em código limpo, desempenho e experiência do usuário.
+Sou **Ese Fapohunda**, Engenheiro de Software apaixonado por projetar e construir experiências digitais elegantes, performáticas e acessíveis. Com **6+ anos de experiência**, transformo ideias complexas em aplicações robustas e escaláveis — do design da interface ao deploy — mantendo foco em código limpo, alta performance e excelência na experiência do usuário.
 
 📧 esefapohunda@gmail.com  
 📞 +55 48 991817031  

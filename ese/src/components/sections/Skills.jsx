@@ -1,9 +1,29 @@
 import React from "react";
 import { Technology } from "../../data/Tecnology";
 import FadeIn from "../animation/FadeIn";
-import * as Icons from "lucide-react";
+import { Code2, Database, Github, Smartphone, Wrench } from "lucide-react";
+import { SiCss3, SiHtml5, SiJavascript, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiRedux, SiTailwindcss, SiTypescript, SiVite } from "react-icons/si";
+import { TbApi } from "react-icons/tb";
 import RadialGradientBackground from "../background/RadiaGradientBackground";
 import { useTranslation } from "react-i18next";
+
+const skillIcons = {
+  js: SiJavascript,
+  react: SiReact,
+  node: SiNodedotjs,
+  css3: SiCss3,
+  html5: SiHtml5,
+  ts: SiTypescript,
+  nextjs: SiNextdotjs,
+  tailwind: SiTailwindcss,
+  database: Database,
+  github: Github,
+  redux: SiRedux,
+  devops: Wrench,
+  api: TbApi,
+  vite: SiVite,
+  smartphone: Smartphone,
+}
 
 const Skills = () => {
   const { t } = useTranslation();
@@ -106,7 +126,7 @@ const Skills = () => {
                   {/* Skills List */}
                   <div className="flex flex-col gap-4">
                     {categorySkills.map((skill, skillIndex) => {
-                      const IconComponent = Icons[skill.icon] || Icons.Code2;
+                      const IconComponent = skillIcons[skill.icon] || Code2;
                       const proficiency = getProficiencyPercentage(skill.level);
 
                       return (

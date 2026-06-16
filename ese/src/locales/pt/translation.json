@@ -10,9 +10,9 @@
     "language": "Idioma"
   },
   "hero": {
-    "badge": "Desenvolvedor React & Entusiasta UI/UX || Disponível para trabalho",
-    "title": "Desenvolvedor Front-End | <react>React</react> | Entusiasta <uiux>UI/UX</uiux>",
-    "description": "Construindo aplicações modernas e escaláveis com React, Next.js, Tailwind CSS, Node.js e outras tecnologias de ponta. Transformando ideias em realidade.",
+    "badge": "Engenheiro de Software • Especialista em React & Entusiasta UI/UX || Disponível para trabalho",
+    "title": "Engenheiro de Software | <react>React</react> | Entusiasta <uiux>UI/UX</uiux>",
+    "description": "Projetando e construindo aplicações modernas, performáticas e escaláveis com React, Next.js, Tailwind CSS, Node.js e outras tecnologias de ponta. Transformando ideias em soluções reais.",
     "contactCta": "Entre em Contato",
     "stats": {
       "experience": "Anos de Experiência",
@@ -43,7 +43,7 @@
   "about": {
     "badge": "Desenvolvedor Full-Stack",
     "title": "Criando Experiências Digitais Incríveis",
-    "bio": "Desenvolvedor React apaixonado com 6 anos de experiência na criação de aplicações web dinâmicas e responsivas. Hábil em traduzir mockups de design em código de alta qualidade, otimizar desempenho e garantir compatibilidade entre navegadores. Comprometido com aprendizado contínuo e atualização com as últimas tendências da indústria para entregar soluções de ponta.",
+    "bio": "Engenheiro de Software com 6 anos de experiência projetando e construindo aplicações web dinâmicas, performáticas e de fácil manutenção. Especialista em transformar designs em código pronto para produção, otimizar escalabilidade e performance, e garantir compatibilidade entre plataformas. Dedico-me ao aprendizado contínuo e a entrega de soluções confiáveis.",
     
     "stats": {
       "frontEnd": { "value": "Especialista em Front-End", "label": "Focado em desenvolvimento React & UI moderno" },

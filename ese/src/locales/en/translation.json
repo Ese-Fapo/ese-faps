@@ -10,9 +10,9 @@
     "language": "Language"
   },
   "hero": {
-    "badge": "React Developer & UI/UX Enthusiast || Open to work",
-    "title": "Front-End Developer | <react>React</react> | <uiux>UI/UX</uiux> Enthusiast",
-    "description": "Building modern, scalable applications with React, Next.js, Tailwind CSS, Node.js, and other cutting-edge technologies. Turning ideas into reality.",
+    "badge": "Software Engineer • React Specialist & UI/UX Enthusiast || Open to work",
+    "title": "Software Engineer | <react>React</react> | <uiux>UI/UX</uiux> Enthusiast",
+    "description": "Designing and building modern, high-performance, and scalable applications with React, Next.js, Tailwind CSS, Node.js and other cutting-edge technologies. Turning ideas into robust solutions.",
     "contactCta": "Get in Touch",
     "stats": {
       "experience": "Years of Experience",
@@ -41,9 +41,9 @@
     "title": "Chat on WhatsApp"
   },
   "about": {
-    "badge": "Full-Stack Developer",
+    "badge": "Software Engineer",
     "title": "Crafting Amazing Digital Experiences",
-    "bio": "Passionate React developer with 6 years of experience building dynamic and responsive web applications. Skilled in transforming design mockups into high-quality code, optimizing performance, and ensuring cross-browser compatibility. Committed to continuous learning and staying up to date with the latest industry trends to deliver cutting-edge solutions.",
+    "bio": "Software Engineer with 6 years of experience designing and building dynamic, performant and maintainable web applications. Expert at translating design into production-ready code, optimizing for performance and scalability, and ensuring cross-platform compatibility. Dedicated to continuous learning and shipping reliable solutions.",
    
     "stats": {
       "frontEnd": { "value": "Front-End Specialist", "label": "Focused on modern React development & UI" },

@@ -2,13 +2,13 @@ import { Stars } from "lucide-react";
 
 export const PERSONAL_INFO = {
     name: 'Ese Fapohunda',
-    title: 'Desenvolvedor React & Entusiasta UI/UX || Disponível para trabalho',
+    title: 'Engenheiro de Software • Especialista em React & Entusiasta UI/UX || Disponível para trabalho',
     email : 'esefapohunda@gmail.com',
     phone : '+55 48 991817031',
     location : 'Florianópolis, Brasil',
     tagline : 'Criando experiências web perfeitas com React.js',
     resume: '/files/Ese_Fapohunda_Resume.pdf',
-    bio: [`Desenvolvedor React apaixonado com 6 anos de experiência na criação de aplicações web dinâmicas e responsivas. Hábil em traduzir mockups de design em código de alta qualidade, otimizar desempenho e garantir compatibilidade entre navegadores. Comprometido com aprendizado contínuo e atualização com as últimas tendências da indústria para entregar soluções de ponta.`],
+    bio: [`Engenheiro de Software com 6 anos de experiência projetando e desenvolvendo aplicações web dinâmicas, performáticas e escaláveis. Experiência em traduzir designs em código pronto para produção, otimizar desempenho e garantir compatibilidade entre plataformas, sempre priorizando qualidade e manutenção.`],
 };
 
 export const SOCIAL_LINKS = {

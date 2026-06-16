@@ -1,9 +1,17 @@
 import React from 'react'
 import {services} from '../../data/service'
-import * as Icons from 'lucide-react'
-import { Wrench } from 'lucide-react'
+import { Code, Code2, Layout, Palette, Shield, Smartphone, Wrench, Zap } from 'lucide-react'
 import FadeIn from '../animation/FadeIn'
 import { useTranslation } from 'react-i18next'
+
+const serviceIcons = {
+  layout: Layout,
+  smartphone: Smartphone,
+  Pal: Palette,
+  code2: Code2,
+  zap: Zap,
+  shield: Shield,
+}
 
 const Service = () => {
   const { t } = useTranslation()
@@ -47,7 +55,7 @@ const Service = () => {
         {/* Services Grid */}
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
           {services.map((service, index) => {
-            const IconComponent = Icons[service.icon] || Icons.Code
+            const IconComponent = serviceIcons[service.icon] || Code
             return (
               <FadeIn key={service.id} delay={100 + index * 100}>
                 <div className='bg-gray-900/80 sm:bg-gray-900/50 border border-gray-700 sm:border-gray-800 rounded-lg p-6 hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 ring-1 ring-white/10 sm:ring-0'>

@@ -104,7 +104,7 @@ const Hero = () => {
                 <div className="relative rounded-2xl overflow-hidden m-0.5 h-[calc(100%-2px)]">
                   <img
                     src={profilePhoto}
-                    alt="Ese Fapohunda - React Developer"
+                    alt="Ese Fapohunda - Software Engineer"
                     width="2400"
                     height="3300"
                     fetchPriority="high"
